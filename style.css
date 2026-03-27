@@ -48,6 +48,7 @@ body {
   background-color: #e6decf;
   overflow: hidden;
   position: relative;
+   padding: 0 60px;
 }
 @media (max-width: 480px) {
   .container {
@@ -75,6 +76,7 @@ body {
   left: 0;
   background-color: var(--beach-bg);
   z-index: 6;
+  padding: 0 20px;
 }
 @media (max-width: 575px) {
   .header {
@@ -120,6 +122,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   max-width: 320px;
+  padding-left: 20px;
+}
 }
 @media screen and (max-width: 930px) {
   .left-side {
@@ -204,9 +208,10 @@ body {
 
 .center {
   display: flex;
-  margin-left: 120px;
   position: relative;
   flex-shrink: 0;
+   margin-left: auto;   
+  padding-right: 40px;
 }
 @media screen and (max-width: 930px) {
   .center {
