@@ -124,7 +124,6 @@ body {
   max-width: 320px;
   padding-left: 20px;
 }
-}
 @media screen and (max-width: 930px) {
   .left-side {
     text-align: center;
